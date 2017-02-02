@@ -23,12 +23,11 @@ $(document).ready(function () {
 
     /* Home Fullscreen Slider */
     $(".fullscreen-slider").backstretch([
-/* "assets/img/bg/1.jpg",
-"assets/img/bg/3.jpg" */
-"assets/images/hero/1.jpg",
-"assets/images/hero/3.jpg",,
-"assets/images/hero/5.jpg"
-    ], { duration: 4500, fade: 650 });
+        "assets/images/hero/1.jpg",
+        "assets/images/hero/8.jpg",
+        "assets/images/hero/3.jpg",
+        "assets/images/hero/6.jpg"
+    ], { duration: 5000, fade: 650 });
 
     /* Home Title Slider */
     $('.title-slider').bxSlider({
@@ -36,8 +35,9 @@ $(document).ready(function () {
         pager: false,
         auto: true,
         controls: false,
-        speed: 1500, fade: 200
+        speed: 4000, fade: 250
     });
+
     /*Ipad Air Slider*/
     $('#air-slider').bxSlider({
         mode: 'fade',

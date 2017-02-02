@@ -18,7 +18,7 @@ Version: 1.0
 body {
     color: #555;
     font-weight: 300;
-    font-size: 13px;
+    font-size: 1.4em;
     font-family: 'Raleway',sans-serif !important;
     overflow: visible !important;
 }
@@ -424,9 +424,12 @@ input[type="color"]:focus,
 .white-text {
     color: white;
 }
+.pink-color-text {
+     color: #FF00FF; 
+}
+
 .color-text {
-    /* color: #8fc941; */
-    color: #FF00FF;
+    color: #8fc941; 
 }
 
 .text-center {
@@ -1454,7 +1457,7 @@ input[type="color"]:focus,
 /*-----------------------------------------------------------------------------------*/
 .seperator-top, .subscribe-wrap {
     background: #333;
-    height: 180px;
+    height: 100px;
     overflow: hidden;
 }
 
@@ -1463,7 +1466,7 @@ input[type="color"]:focus,
     background-attachment: fixed;
     width: 100%;
     padding: 30px 0;
-    height: 300px;
+    height: 200px;
     display: block !important;
 }
 
